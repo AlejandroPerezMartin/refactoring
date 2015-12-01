@@ -17,5 +17,6 @@ public class Country {
     public Continent getContinent() {
         return continent;
     }
-    
+
+    public boolean isEuropean() {return getContinent() == Continent.EUROPE;}
 }

@@ -17,5 +17,9 @@ public class City {
     public Country getCountry() {
         return country;
     }
-    
+
+    public boolean isEuropean() {
+        return getCountry().isEuropean();
+    }
+
 }
