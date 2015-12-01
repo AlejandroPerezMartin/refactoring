@@ -19,8 +19,9 @@ public class Customer {
         return address;
     }
 
-    public void setAddress(Address address) {
+    public Customer address(Address address) {
         this.address = address;
+        return this;
     }
 
     boolean isEuropean() {
